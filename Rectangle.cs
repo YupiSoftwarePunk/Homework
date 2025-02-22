@@ -24,7 +24,7 @@ namespace HomeWork
             this.y2 = y2;
         }
 
-        public void Perimetr()
+        public void Perimeter()
         {
             double length = Math.Abs(x2 - x1);
             double width = Math.Abs(y2 - y1);

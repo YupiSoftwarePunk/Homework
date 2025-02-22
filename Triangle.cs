@@ -20,7 +20,7 @@ namespace HomeWork
         }
 
 
-        public void Perimetr()
+        public void Perimeter()
         {
             double perimetr = lenght1 + lenght2 + lenght3;
             Console.WriteLine($"Perimeter = {perimetr}\n");
@@ -35,7 +35,7 @@ namespace HomeWork
 
         public void Info()
         {
-            Console.WriteLine($"Side length 1 = {lenght1}, Side length 2 = {lenght2}, Side length 3 = {lenght3}");
+            Console.WriteLine($"Side length 1 = {lenght1}, Side length 2 = {lenght2}, Side length 3 = {lenght3}\n");
         }
     }
 }

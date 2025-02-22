@@ -28,13 +28,21 @@
             iphone11.Info();
 
             Rectangle rect = new Rectangle(2, 4, 7, 1);
-            rect.Perimetr();
+            rect.Perimeter();
             rect.Square();
 
             Triangle triangle = new Triangle(10, 10, 10);
-            triangle.Perimetr();
+            triangle.Perimeter();
             triangle.Square();
             triangle.Info();
+
+            Circle circle = new Circle(2, 4, 5);
+            circle.Square();
+            circle.Lenght();
+
+            Square square = new Square(1, 3, 5);
+            square.Perimeter();
+            square.Area();
         }
     }
 }
