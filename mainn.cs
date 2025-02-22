@@ -26,6 +26,15 @@
 
             SmartPhone iphone11 = new SmartPhone("iphone 11", 7.22, 16, 32, 300, "ios");
             iphone11.Info();
+
+            Rectangle rect = new Rectangle(2, 4, 7, 1);
+            rect.Perimetr();
+            rect.Square();
+
+            Triangle triangle = new Triangle(10, 10, 10);
+            triangle.Perimetr();
+            triangle.Square();
+            triangle.Info();
         }
     }
 }
